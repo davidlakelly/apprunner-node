@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Start the server
-const port = 8000;
+const port = 80;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
